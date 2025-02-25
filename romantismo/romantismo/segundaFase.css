@@ -1,0 +1,21 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.github{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    opacity: 80% ; 
+}
+.devs{
+    margin-left: 80px;
+}
+.text-xlarge.c1-75:hover{
+    color: grey;
+}
+.gif{
+    width: 70%;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}

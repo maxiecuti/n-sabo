@@ -1,0 +1,41 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+img{
+    border-radius: 35px;
+}
+.thumbnail-project{
+    transition: all 0.2s ease-in;
+}
+.thumbnail-project:hover{
+    transition: all 0.2s ease-in;
+    opacity: 50%;
+    transform: scale(90%);
+}
+.section{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.section.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+.github{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    opacity: 80% ; 
+}
+.devs{
+    margin-left: 80px;
+}
+.text-xlarge.c1-75:hover{
+    color: grey;
+}
+.gif{
+    width: 70%;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
